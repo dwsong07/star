@@ -4,7 +4,7 @@ import { FaHome, FaSun, FaMoon, FaCloudSun } from "react-icons/fa";
 
 const Sidebar = () => {
     return (
-        <div className={styles.Sidebar}>
+        <aside className={styles.Sidebar}>
             <div>
                 <FaHome />
             </div>
@@ -17,7 +17,7 @@ const Sidebar = () => {
             <div>
                 <FaCloudSun />
             </div>
-        </div>
+        </aside>
     );
 };
 
