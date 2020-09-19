@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "App.module.css";
 import Sidebar from "Sidebar";
+import Main from "Main";
 
 const App = () => {
     return (
         <div className={styles.App}>
             <Sidebar />
-            <h1>Hello!</h1>
+            <Main />
         </div>
     );
 };
