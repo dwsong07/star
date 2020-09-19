@@ -1,0 +1,23 @@
+.Sidebar {
+    align-self: center;
+    height: 100vh;
+    box-sizing: border-box;
+
+    /* Icons flex layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+
+    /* border */
+    border: 1px solid #dee2e6;
+
+    /* padding to look better */
+    padding: 7px;
+}
+
+.Sidebar > div {
+    --sidebar-icon-margin: 8px;
+    cursor: pointer;
+    margin: var(--sidebar-icon-margin) 0px;
+}
