@@ -21,3 +21,7 @@
     cursor: pointer;
     margin: var(--sidebar-icon-margin) 0px;
 }
+
+.Sidebar > div a {
+    color: black;
+}

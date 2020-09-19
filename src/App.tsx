@@ -10,15 +10,15 @@ import styles from "App.module.css";
 const App = () => {
     return (
         <div className={styles.App}>
-            <Sidebar />
-            <section className={styles.section}>
-                <BrowserRouter>
+            <BrowserRouter>
+                <Sidebar />
+                <section className={styles.section}>
                     <Switch>
                         <Route path="/" exact component={Main} />
                         <Route path="/sun" exact component={Sun} />
                     </Switch>
-                </BrowserRouter>
-            </section>
+                </section>
+            </BrowserRouter>
         </div>
     );
 };

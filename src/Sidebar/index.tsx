@@ -1,21 +1,30 @@
 import React from "react";
 import styles from "Sidebar/index.module.css";
 import { FaHome, FaSun, FaMoon, FaCloudSun } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
     return (
         <aside className={styles.Sidebar}>
             <div>
-                <FaHome />
+                <Link to="/">
+                    <FaHome />
+                </Link>
             </div>
             <div>
-                <FaSun />
+                <Link to="/sun">
+                    <FaSun />
+                </Link>
             </div>
             <div>
-                <FaMoon />
+                <Link to="/moon">
+                    <FaMoon />
+                </Link>
             </div>
             <div>
-                <FaCloudSun />
+                <Link to="/weather">
+                    <FaCloudSun />
+                </Link>
             </div>
         </aside>
     );
